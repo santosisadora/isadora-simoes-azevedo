@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px Noto Sans Mono, sans-serif;
+  color:orange;
+  background-color:black;
+}
+
+.nav-link a{
+  color:orange;
+}
+
+a {
+  color: #00B7FF;
+}
