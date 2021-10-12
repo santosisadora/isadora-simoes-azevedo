@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
-
+    <title>{{title}}{{content}}</title>
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
 
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
       <!-- Bootstrap -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
       <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+
+
   <div>
       <!-- sample Navbar: https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-          <!-- Brand -->
-          <a class="navbar-brand" href="/">ISA</a>
-          <a href="#" class="pull-left"><img src="/img/Logo.ISA.png"></a>
+
+         <!-- <a class="navbar-brand" href="/">ISA</a> -->
+          <a href="/about"><img src="/images/Logo.ISA.png" height="5%" width="5%"></a>
 
           <!-- Toggler/collapsible Button -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -37,12 +42,20 @@
                       <a class="nav-link" href="/projects">Projects</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="/contactme">Contact me</a>
+                      <a class="nav-link" href="/contactme">Contact</a>
                   </li>
               </ul>
           </div>
       </nav>
+
+
+
+
       {{{body}}}
   </div>
+
   </body>
+  <footer class="container-fluid bg-4 text-center">
+      <p>Developed By Isadora Simoes Azevedo. <a href="https://www.linkedin.com/in/isadora-santos-/">LinkedIn</a>. <a href="https://github.com/santosisadora">GitHub</a></p>
+  </footer>
 </html>
